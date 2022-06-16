@@ -1,3 +1,12 @@
+########################################################################################################
+#                                                                                                      #
+#                                                                                                      #
+#         Code for Article: Of Two Minds? How Consistency and Belonging Bias the                       #
+#         Need for Evidence about COVID-19                                                             #
+#                                                                                                      #
+########################################################################################################
+
+
 #devtools::install_github("jacob-long/dpm")
 
 library(haven)
