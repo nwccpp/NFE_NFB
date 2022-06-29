@@ -7,9 +7,8 @@ The code <https://github.com/nwccpp/NFE_NFB/blob/main/NFE_NFB_Regression_Figures
 
 The data set accompanying the code: <https://github.com/nwccpp/NFE_NFB/blob/main/Covid_Misinfo_Panel_Data_032422.Rda>
 
-For questions, or more information on the code please contact: 
-Ayse D. Lokmanoglu\
-ayse [dot] lokmanoglu [at] nortwestern [dot] edu
+For all questions on the paper please contact Camille Saucier camillesaucier2024 [at] u [dot] northwestern [dot] edu.\
+For questions on the code please contact Ayse D. Lokmanoglu ayse [dot] lokmanoglu [at] nortwestern [dot] edu.
 ```{r include=FALSE}
 #devtools::install_github("jacob-long/dpm")
 
