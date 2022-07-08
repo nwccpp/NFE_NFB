@@ -68,7 +68,7 @@ summary(model_mis_cont)
 ```
 
 ### Two-way Interaction Models:
-Controls: Age, Education, Gender & Race
+Controls: Age, Education, Gender & Race\
 Interaction: NFE and Ideology
 ```{r include=FALSE}
 # Model 3: Accurate Information Endorsement: NFE*Ideology
@@ -96,7 +96,7 @@ summary(model_mis_int_1)
 
 
 ### Three way interaction models
-Controls: Age, Education, Gender & Race
+Controls: Age, Education, Gender & Race\
 Interaction: NFE, Ideology and NFB
 ```{r include=FALSE}
 # Model 5: Accurate Information Endorsement: NFE*Ideology*NFB
@@ -182,7 +182,7 @@ nfb_labeller <- function(variable,value){
   return(NFB_names[value])
 }
 ```
-Figure 2: Accurate Information Endorsement: NFE*Ideology*NFB
+Figure 2: Accurate Information Endorsement: NFE x Ideology x NFB
 ```{r include=FALSE}
 # use model 5
 ACC_int <- ggpredict(model_acc_cont_int, terms = c("NFE", "ideo", "NFB"))
@@ -222,7 +222,7 @@ ggplot(ACC_int, aes(x = x, y = predicted, colour = group, linetype = group)) +
 ggsave("Figures_NFE_NFB/Figure3_NFE_NFB_Accurate_Endorsement.tiff", width=8.5, height=5, dpi=300)
 
 ```
-Figure 3: Misinformation Endorsement: NFE*Ideology*NFB
+Figure 3: Misinformation Endorsement: NFE x Ideology x NFB
 ```{r include=FALSE}
 # use model 6
 MIS_int <- ggpredict(model_mis_cont_int, terms = c("NFE", "ideo", "NFB"))
